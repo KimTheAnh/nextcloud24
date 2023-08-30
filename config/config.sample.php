@@ -69,12 +69,7 @@ $CONFIG = [
  *   Using TLS certificates where commonName=<IP address> is deprecated
  */
 'trusted_domains' =>
-   [
-    'demo.example.org',
-    'otherdomain.example.org',
-    '10.111.112.113',
-    '[2001:db8::1]'
-  ],
+   ['localhost'],
 
 
 /**
